@@ -2,7 +2,7 @@ import requests
 import telebot
 from telebot import types
 from mody import Tele 
-token = "ً6639222294:AAE_BUj9jc5ILuq3blgclWRK7ALhmVYvHRY" #التوكن هنا 
+token = "ً6571920990:AAF7EvGZoYWJ4jXx1vZ-cV-aNY4s45STGsk" #التوكن هنا 
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 @bot.message_handler(commands=["start"])
@@ -62,7 +62,7 @@ def main(message):
 				cm5 = types.InlineKeyboardButton(f"• TOTAL 👻 : [ {total} ] •", callback_data='x')
 				mes.add(hh,cm1, cm2, cm3, cm4, cm5)
 				bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='''Wait for processing 
-𝒃𝒚 ➜ @UP_UO ''', reply_markup=mes)
+𝒃𝒚 ➜ @ALMA1NY ''', reply_markup=mes)
 				
 				try:
 					last = str(Tele(cc))
